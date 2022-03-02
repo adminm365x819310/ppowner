@@ -1,0 +1,56 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "AppId": 5,
+    "Button1": 10,
+    "Env": 7,
+    "Label1": 4,
+    "Label2": 6,
+    "Label3": 8,
+    "NewOwner": 9,
+    "Screen1": 3
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "03/02/2022 18:16:17",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "PowerAppsforAdmins": 0
+  },
+  "OrderGroupControls": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 2,
+    "label": 0,
+    "text": 1
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "AppId": 1,
+    "Button1": 6,
+    "Env": 3,
+    "Label1": 0,
+    "Label2": 2,
+    "Label3": 4,
+    "NewOwner": 5,
+    "Screen1": 0
+  },
+  "ResourcesJsonIndices": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0884698,
+    "ControlCount": {
+      "button": 1,
+      "label": 3,
+      "screen": 1,
+      "text": 3
+    },
+    "DeserializationLoadTime": 0.377978,
+    "ErrorCount": 0
+  }
+}

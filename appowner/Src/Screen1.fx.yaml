@@ -1,0 +1,56 @@
+Screen1 As screen:
+
+    Label1 As label:
+        Text: ="App ID"
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Label2 As label:
+        Text: ="Environment"
+        X: =40
+        Y: =80
+        ZIndex: =2
+
+    Button1 As button:
+        OnSelect: |-
+            =PowerAppsforAdmins.SetAdminAppOwner(Env.Text, AppId.Text, {
+                'api-version': "2016-11-01",
+                roleForOldAppOwner: "CanView",
+                newAppOwner: NewOwner.Text
+            })
+        Text: ="Button"
+        X: =270
+        Y: =187
+        ZIndex: =3
+
+    Label3 As label:
+        Text: ="New owner"
+        X: =50
+        Y: =120
+        ZIndex: =4
+
+    AppId As text:
+        Default: ="Text input"
+        Size: =10
+        Width: =520
+        X: =190
+        Y: =40
+        ZIndex: =5
+
+    Env As text:
+        Default: ="Text input"
+        Size: =10
+        Width: =520
+        X: =190
+        Y: =80
+        ZIndex: =6
+
+    NewOwner As text:
+        Default: ="Text input"
+        Size: =10
+        Width: =520
+        X: =190
+        Y: =120
+        ZIndex: =7
+
